@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 252, 119);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(3, 76, 105);
+}
+
+.navigation {
+    background-color: #f5c800;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation img {
+    height: 5rem;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+#choice a{
+    text-decoration: none;
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    transition: transform .2s;
+}
+
+.navigation a {
+    color: rgb(3, 76, 105);
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.navigation a:hover {
+    transform: scale(1.5);
+    color: rgb(7, 122, 168);
+}
+
+#cred {
+    transform: scale(1.5);
+    color: rgb(7, 122, 168);
+}
+
+.bi-house-fill,
+.bi-telephone-fill,
+.bi-envelope-at-fill {
+    font-size: 8rem;
+    color: rgb(3, 76, 105);
+}
+
+header {
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+span {
+    color: rgb(3, 76, 105);
+}
+
+#p1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p1 h1 {
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;;
+
+}
+
+#p1 p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    text-align: center;
+    margin: 0 30rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.footer {
+    padding: 2rem 3rem;
+    background-color: #f5c800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-weight: 200;
+    margin: -1rem;
+}
+
+.footer img {
+    height: 4rem;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-github {
+    font-size: 2rem;
+    color: rgb(3, 76, 105);
+    transition: transform 0.2s;
+}
+
+#icons {
+    display: flex;
+    gap: 3rem;
+}
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-github:hover {
+    transform: scale(1.5);
+    color: rgb(7, 122, 168);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 4rem 0;
+}
