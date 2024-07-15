@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ 
+}
+
+body{
+    height: 100%;
+    background-color: rgb(252, 252, 119);
+}
+
+.navigation{
+    background-color: #f5c800;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
+
+#choices{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    
+}
+
+
+
+.navigation img{
+    height: 5rem;
+}
+
+#choices a{
+    text-decoration: none;
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    transition: transform .2s;
+}
+
+#choices a:hover{
+    color: rgb(5, 133, 183);
+    transform: scale(1.5);
+}
+
+.profile {
+    padding:1rem 10rem 1rem 10rem;
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+    height: 100dvh;
+    align-items: center;
+}
+
+.profile img{
+    height: 20rem;
+    border-radius: 50%;
+ 
+}
+
+#about{
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+#about h1{
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+#about p{
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.profile button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+.profile button:hover  {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  }
+  
+.profile button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5c800;
+}
+
+.footer p{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    align-self: center;
+}
+
+.footer img{
+    height: 5rem;
+}
+
+.bi-github{
+    font-size: 3rem;
+    color: rgb(3, 76, 105);
+    transition: transform .2s;
+}
+.bi-facebook{
+    font-size: 3rem;
+    color: rgb(3, 76, 105);
+    transition: transform .2s;
+}
+.bi-instagram{
+    font-size: 3rem;
+    color: rgb(3, 76, 105);
+    transition: transform .2s;
+}
+
+
+.bi-instagram:hover{
+    color: rgb(5, 133, 183);
+    transform: scale(1.5);
+}
+
+.bi-facebook:hover{
+    color: rgb(5, 133, 183);
+    transform: scale(1.5);
+}
+
+.bi-github:hover{
+    color: rgb(5, 133, 183);
+    transform: scale(1.5);
+}
+
+#socials{
+    margin-right: 2rem ;
+    display: flex;
+    gap:1.2rem;
+}
