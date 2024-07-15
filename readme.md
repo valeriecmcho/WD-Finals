@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/valeriecmcho/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.png" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+This projects demonstrate my skills on creating a website especially for Portfolio purposes. This projects also has the compiled previous projects.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=valeriecmcho/WD-Finals)
 
 ---
 
@@ -55,22 +55,27 @@
 
 ## Overview
 
+
+Overview and Purpose: The main goal of this project is to build a professional portfolio website that highlights the knowledge, abilities, and projects I have worked on since May. This website will function as a digital portfolio and resume, showcasing my abilities and areas of progress. This project will also provide a flexible template for a portfolio website that can be modified and utilized in the future.
+
+Features
+
+Home - This is considered as landing page whenever someone opens my Website.
+About - In this page it provides information about myself including my goals and skills.
+Project - In this page it provides the list of my previous projects including its repositories.
+Skills - In this page it provides the skills that I have and it also indicate where I am really good at.
+Contact - In this page it provides my contact information whenever someone wants to contact me.
+
+
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Dynamic Designs
+- Static Designs
+- JavaScript
+- Href Links
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -112,9 +117,21 @@ WD-ProjectName
 └─ readme.md
 ```
 
+
+### Coding Activity
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f067c-0c58-45b5-b9fa-e3b746c3dab6/a1fa2b8f-8011-42b2-9205-2277807ce312.png" /></a>
+
+### Languages
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f067c-0c58-45b5-b9fa-e3b746c3dab6/2a0e18a6-aa54-4b30-9ad2-9537f427eb88.png" /></a>
+
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+zyx-0314	|WD-Template-Project	|https://github.com/zyx-0314/WD-Template-Project.git
+Bootstrap	|For Embedded code and Java	|https://getbootstrap.com/docs/5.3/about/overview/#team
+Pinterest	|For Ideas and Pics	|https://github.com/zyx-0314/WD-Template-Project.git
+W3School	|For HTML And CSS Guide	|https://www.w3schools.com/html/default.asp
