@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(252, 252, 119);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.navigation {
+    background-color: #f5c800;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem 2rem;
+}
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+}
+
+.navigation img {
+    height: 5rem;
+}
+
+#choices a {
+    text-decoration: none;
+    color: rgb(3, 76, 105);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    transition: transform .2s;
+}
+
+#choices a:hover {
+    color: rgb(5, 133, 183);
+    transform: scale(1.5);
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    align-items: center;
+}
+
+.skills .title {
+    display: flex;
+    align-self: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+.skills .title span {
+    color: rgb(3, 76, 105);
+}
+
+.skill-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill {
+    background: rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 15rem;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.skill i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: rgb(252, 252, 119);
+}
+
+.skill h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.rating i {
+    color: rgb(251, 255, 0);
+    font-size: 1.5rem;
+}
+
+.rating .fa-regular {
+    color: rgb(252, 252, 119);
+}
+
+.footer {
+    background-color: #f5c800;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer img {
+    height: 3rem;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 200;
+    color: navy;
+}
+
+.footer .social-icons a {
+    color: navy;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: yellow;
+    transform: scale(1.2);
+}
